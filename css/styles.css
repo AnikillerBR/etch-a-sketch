@@ -1,0 +1,113 @@
+.corpo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.cabecalho {
+    border-radius: 5px;
+    border-width: 5px;
+    border-style:groove;
+    text-align: center;
+    font-style: italic;
+    font-family:'Bradley Hand', cursive;
+}
+
+.corpo{
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: groove;
+}
+
+.menu-esquerda{
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: groove;
+    width: 115px;
+    padding: 5px;   
+    margin: 5px;
+}
+.linha{
+    display: flex;
+    flex-direction:row;
+}
+.cor-amarelo, 
+.cor-vermelho, 
+.cor-azul,
+.cor-verde,
+.cor-marrom, 
+.cor-roxo,
+.cor-branco,
+.cor-preto{
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: groove;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+}
+.cor-amarelo{
+    background-color: yellow;
+    flex-direction: column;
+    flex: 1;
+
+}
+.cor-vermelho{
+    background-color: red;
+    flex-direction: column;
+    flex: 1;
+
+}
+.cor-azul{
+    background-color: blue;
+    flex-direction: column;
+    flex: 1;
+
+}
+.cor-verde{
+    background-color: green;
+    flex-direction: column;
+    flex: 1;
+
+}
+.cor-marrom{
+    background-color: brown;
+    flex-direction: column;
+    flex: 1;
+
+}
+.cor-roxo{
+    background-color: purple;
+    flex-direction: column;
+    flex: 1;
+
+}
+.cor-branco{
+    background-color: white;
+    flex-direction: column;
+    flex: 1;
+
+}
+.cor-preto{
+    background-color: black;
+    flex-direction: column;
+    flex: 1;
+
+}
+.menu-embaixo{
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: groove;
+    text-align: center;
+    align-self:flex-end;
+    width: 200px;
+    height: 50px;
+    margin:0 auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.scroll{
+    border-radius: 0px;
+    border-width: 0px;
+    border-style: groove;
+    align-items: center;
+    align-self: center;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css\styles.css">
+        <script type="text/javascript" defer src="js\script.js"></script>
+        <title>Etch a Sketch Task</title>
+    </head>
+
+<body>
+    <div class="cabecalho">
+        <h1>Etch a Sketch</h1>
+    </div>
+    <div class="corpo">
+        <div class="menu-esquerda">
+            <div class="linha">
+                <div class="cor-amarelo" onclick="corYellow()"></div>
+                <div class="cor-vermelho" onclick="corRed()"></div>
+            </div>
+            <div class="linha">
+                <div class="cor-azul" onclick="corBlue()"></div>
+                <div class="cor-verde" onclick="corGreen()"></div>
+            </div>
+            <div class="linha">
+                <div class="cor-marrom" onclick="corBrown()"></div>
+                <div class="cor-roxo" onclick="corPurple()"></div>
+            </div>
+            <div class="linha">
+                <div class="cor-branco" onclick="corWhite()"></div>
+                <div class="cor-preto" onclick="corBlack()"></div>
+            </div>
+            <p class="button-reset">
+                <button class="reset" onclick="limpar()">Reset</button>
+            </p>
+        </div>
+        <div class="grid">
+            
+        </div>
+        <div class="menu-embaixo">
+            <div class="scroll">
+                <input type="range" class="scroll-bar" value="16" min="1" max="60" onchange="rangeSlider(this.value)">
+                <div class="progress-bar">Tamanho do Grid</div>
+                <div class="progress-bar-tamanho"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Criação de Grid na Página (teste para geração de código no JS)</title>
+        <style>
+            .grid{
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                grid-template-rows: repeat(4, 1fr);
+                border: 1px;
+                border-radius: 0px;
+                border-style: groove;
+                width: 500px;
+                height: 500px;
+            }
+            .x1, .x2, .x3, .x4{
+                border: 1px;
+                border-radius: 0px;
+                border-style: groove;
+                width: 99%;
+                height: 99%;
+            }
+            .y1, .y2, .y3, .y4{
+                border: 1px;
+                border-radius: 0px;
+                border-style: groove;
+                width: 99%;
+                height: 99%;                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="corpo">
+            <div class="grid">
+                <div class="x1">
+                    <div class="y1"></div>
+                    <div class="y2"></div>
+                    <div class="y3"></div>
+                    <div class="y4"></div>
+                </div>
+                <div class="x2">
+                    <div class="y1"></div>
+                    <div class="y2"></div>
+                    <div class="y3"></div>
+                    <div class="y4"></div>
+                </div>
+                <div class="x3">
+                    <div class="y1"></div>
+                    <div class="y2"></div>
+                    <div class="y3"></div>
+                    <div class="y4"></div>
+                </div>
+                <div class="x4">
+                    <div class="y1"></div>
+                    <div class="y2"></div>
+                    <div class="y3"></div>
+                    <div class="y4"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
